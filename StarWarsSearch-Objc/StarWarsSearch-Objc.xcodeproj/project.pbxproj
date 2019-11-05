@@ -19,6 +19,8 @@
 		BD9AA50E2371D7D400E8D4EF /* LSIPersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AA50D2371D7D400E8D4EF /* LSIPersonTests.m */; };
 		BD9AA5122371D8E200E8D4EF /* Person.json in Resources */ = {isa = PBXBuildFile; fileRef = BD9AA5112371D8E200E8D4EF /* Person.json */; };
 		BD9AA5142371D90F00E8D4EF /* StarWarsResults.json in Resources */ = {isa = PBXBuildFile; fileRef = BD9AA5132371D90F00E8D4EF /* StarWarsResults.json */; };
+		FB8F2FBC2371E4A300E1C7C7 /* LSIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F2FBB2371E4A300E1C7C7 /* LSIPerson.m */; };
+		FB8F2FBF2371F3C100E1C7C7 /* LSIPersonContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F2FBE2371F3C100E1C7C7 /* LSIPersonContoller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		BD9AA5102371D8B000E8D4EF /* LSIFileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIFileHelper.h; sourceTree = "<group>"; };
 		BD9AA5112371D8E200E8D4EF /* Person.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Person.json; sourceTree = "<group>"; };
 		BD9AA5132371D90F00E8D4EF /* StarWarsResults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StarWarsResults.json; sourceTree = "<group>"; };
+		FB8F2FBA2371E4A300E1C7C7 /* LSIPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIPerson.h; sourceTree = "<group>"; };
+		FB8F2FBB2371E4A300E1C7C7 /* LSIPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIPerson.m; sourceTree = "<group>"; };
+		FB8F2FBD2371F3C100E1C7C7 /* LSIPersonContoller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIPersonContoller.h; sourceTree = "<group>"; };
+		FB8F2FBE2371F3C100E1C7C7 /* LSIPersonContoller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIPersonContoller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				BD9AA4EB2371D53500E8D4EF /* LaunchScreen.storyboard */,
 				BD9AA4EE2371D53500E8D4EF /* Info.plist */,
 				BD9AA4EF2371D53500E8D4EF /* main.m */,
+				FB8F2FBA2371E4A300E1C7C7 /* LSIPerson.h */,
+				FB8F2FBB2371E4A300E1C7C7 /* LSIPerson.m */,
+				FB8F2FBD2371F3C100E1C7C7 /* LSIPersonContoller.h */,
+				FB8F2FBE2371F3C100E1C7C7 /* LSIPersonContoller.m */,
 			);
 			path = "StarWarsSearch-Objc";
 			sourceTree = "<group>";
@@ -237,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9AA4DF2371D53400E8D4EF /* AppDelegate.m in Sources */,
+				FB8F2FBC2371E4A300E1C7C7 /* LSIPerson.m in Sources */,
+				FB8F2FBF2371F3C100E1C7C7 /* LSIPersonContoller.m in Sources */,
 				BD9AA5082371D58300E8D4EF /* LSIPersonSearchTableViewController.m in Sources */,
 				BD9AA50B2371D64500E8D4EF /* LSIPersonTableViewCell.m in Sources */,
 				BD9AA4F02371D53500E8D4EF /* main.m in Sources */,
